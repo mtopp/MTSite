@@ -1,2 +1,9 @@
 ﻿body {
+    font-family: Verdana;
+}
+
+#navi-bar {
+    position: fixed;
+    background-color: #000000;
+   
 }
