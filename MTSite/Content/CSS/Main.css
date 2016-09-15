@@ -3,17 +3,22 @@
     background-color: #333;
 }
 
+#topbar {
+    position: fixed;
+    top: 0;
+    border-top: 1px solid #9d3227;
+    border-bottom: 1px solid #9d3227;
+    width: 100%;
+}
+
 ul.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    border-top: 1px solid #9d3227;
-    border-bottom: 1px solid #9d3227;
+    width: auto;
+
 }
 
 ul.navbar a {
@@ -22,7 +27,7 @@ ul.navbar a {
     text-align: center;
     padding: 24px 18px 21px 18px;
     text-decoration: none;
-    float: right;
+    float: left;
 }
 
 ul.navbar a:hover {
@@ -30,9 +35,12 @@ ul.navbar a:hover {
 
 }
 
-ul.navbar li a#logo {
+#logo {
+    text-align: center;
     font-size: 36px;
-    padding: 10px;
+    color: #ffffff;
+    padding: 10px 0px;
+    width: 18%;
     float: left;
     background-color: #9d3227;
 }

@@ -11,13 +11,19 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <ul class="navbar">
-        <li><a id="logo">MIKE TOPPING</a></li>
-        <li><a class="active" href="">Opt 1</a></li>
-        <li><a href="">Opt 2</a></li>
-        <li><a href="">Opt 3</a></li>
-        <li><a href="">Opt 4</a></li>
-    </ul>
+    <div id="topbar">
+        <a href="">
+            <div id="logo">
+                MIKE TOPPING
+            </div>
+        </a>
+        <ul class="navbar">
+            <li><a class="active" href="">Opt 1</a></li>
+            <li><a href="">Opt 2</a></li>
+            <li><a href="">Opt 3</a></li>
+            <li><a href="">Opt 4</a></li>
+        </ul>
+    </div>
     <div>
         @RenderBody()
     </div>
