@@ -1,14 +1,15 @@
 ﻿body {
     font-family: Verdana;
-    background-color: #333;
+    background-color: #ffffff;
 }
 
 #topbar {
     position: fixed;
     top: 0;
-    border-top: 1px solid #9d3227;
-    border-bottom: 1px solid #9d3227;
+    border-top: 1px solid #00b4ff;
+    border-bottom: 1px solid #00b4ff;
     width: 100%;
+    background-color: #565656;
 }
 
 ul.navbar {
@@ -16,7 +17,7 @@ ul.navbar {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    /*background-color: #565656;*/
     width: auto;
 
 }
@@ -25,22 +26,75 @@ ul.navbar a {
     display: block;
     color: #ffffff;
     text-align: center;
-    padding: 24px 18px 21px 18px;
+    padding: 23px 18px 22px 18px;
     text-decoration: none;
     float: left;
 }
 
 ul.navbar a:hover {
-    background-color: #9d3227;
-
+    background-color: #00b4ff;
 }
 
 #logo {
     text-align: center;
     font-size: 36px;
-    color: #ffffff;
+    text-shadow: -1px -1px #000000;
+    color: #00b4ff;
     padding: 10px 0px;
     width: 18%;
     float: left;
-    background-color: #9d3227;
+    /*background-color: #565656;*/
+}
+
+#banner {
+    margin-top: 64px;
+    padding-top: 80px;
+
+}
+
+#banner p {
+    margin: 0px;
+    font-size: 80px;
+    text-align: center;
+    color: #00b4ff;
+    animation: fadein 4s;
+    -moz-animation: fadein 4s;
+    -webkit-animation: fadein 4s;
+    -o-animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@-moz-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@-o-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
