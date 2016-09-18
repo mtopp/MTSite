@@ -12,23 +12,28 @@
     background-color: #565656;
 }
 
+#topbar a {
+    text-decoration: none;
+}
+
 ul.navbar {
     list-style-type: none;
+    text-align: center;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    /*background-color: #565656;*/
     width: auto;
+}
 
+ul.navbar li {
+    display: inline-block;
+    text-align: center;
 }
 
 ul.navbar a {
-    display: block;
+    display: inline-block;
     color: #ffffff;
     text-align: center;
     padding: 23px 18px 22px 18px;
-    text-decoration: none;
-    float: left;
 }
 
 ul.navbar a:hover {
@@ -36,14 +41,14 @@ ul.navbar a:hover {
 }
 
 #logo {
+    float: left;
     text-align: center;
     font-size: 36px;
     text-shadow: -1px -1px #000000;
     color: #00b4ff;
-    padding: 10px 0px;
-    width: 18%;
-    float: left;
-    /*background-color: #565656;*/
+    padding: 10px;
+    width: auto;
+    vertical-align: top;
 }
 
 #banner {
@@ -62,6 +67,19 @@ ul.navbar a:hover {
     -webkit-animation: fadein 4s;
     -o-animation: fadein 4s;
 }
+
+@media screen and (max-width: 700px) {
+    ul.navbar a {
+        float: none;
+    }
+    #logo {
+        display: none;
+    }
+    /*#logo, ul.navbar {
+        display: block;
+    }*/
+}
+
 
 @keyframes fadein {
     from {
