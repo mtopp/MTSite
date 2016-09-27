@@ -5,6 +5,7 @@
 
 #topwrapper {
     height: 64px;
+    width: 100%;
 }
 
 #topbar {
@@ -12,7 +13,7 @@
     top: 0;
     border-top: 1px solid #00b4ff;
     border-bottom: 1px solid #00b4ff;
-    width: 100%;
+    width: inherit;
     background-color: #242424;
 }
 
@@ -73,12 +74,25 @@ ul.navbar a:hover {
     -o-animation: fadein 4s;
 }
 
-@media screen and (max-width: 700px) {
-    ul.navbar a {
+@media screen and (max-width: 750px) {
+    ul.navbar {
         float: none;
+        margin: 0;
+    }
+    ul.navbar a {
+        padding: 15px;
     }
     #logo {
-        display: none;
+        display: block;
+        width: 100%;
+        margin: 0px;
+        padding: 5px 0 0 0;
+    }
+    #topbar {
+        position: static;
+    }
+    #topwrapper {
+        height: auto;
     }
     /*#logo, ul.navbar {
         display: block;
