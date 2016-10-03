@@ -21,6 +21,14 @@
     text-decoration: none;
 }
 
+#logowrapper {
+    width: 40%;
+}
+
+#navbarwrapper {
+    width: 60%;
+}
+
 ul.navbar {
     list-style-type: none;
     text-align: center;
