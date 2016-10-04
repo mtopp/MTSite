@@ -20,13 +20,14 @@
 }
 
 .leftcontent {
-    width: 40%;
-    background-color: #ffffff;
+    width: 45%;
+    background-color: #242424;
+    border-right: 1px solid #00b4ff;
 }
 
 .rightcontent {
-    width: 60%;
-    background-color:#00b4ff;
+    width: 55%;
+    background-color:#ff6a00;
 }
 
 

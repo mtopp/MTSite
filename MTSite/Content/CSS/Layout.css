@@ -22,11 +22,15 @@
 }
 
 #logowrapper {
-    width: 40%;
+    width: 35%;
+    float: left;
+    height: auto;
 }
 
 #navbarwrapper {
-    width: 60%;
+    width: 65%;
+    float: left;
+    height: auto;
 }
 
 ul.navbar {
@@ -90,13 +94,18 @@ ul.navbar a:hover {
     #topwrapper {
         height: auto;
     }
+    #logowrapper, #navbarwrapper {
+        float: none;
+        width: auto;
+    }
+
     /*#logo, ul.navbar {
         display: block;
     }*/
 }
 
 
-@keyframes fadein {
+/*@keyframes fadein {
     from {
         opacity:0;
     }
@@ -130,4 +139,4 @@ ul.navbar a:hover {
     to {
         opacity: 1;
     }
-}
+}*/
