@@ -1,10 +1,14 @@
-﻿body {
+﻿html, body {
+    height: 100%;
+}
+
+body {
     font-family: Verdana;
     background-color: #ffffff;
 }
 
 #topwrapper {
-    height: 64px;
+    /*height: 64px;*/
     width: 100%;
 }
 

@@ -15,14 +15,14 @@
 }*/
 
 .contentpartition {
-    height: 700px;
+    height: 100%;
     float: left;
 }
 
 .leftcontent {
     width: 45%;
-    background-color: #242424;
-    border-right: 1px solid #00b4ff;
+    background-color: #ffffff;
+    /*border-right: 1px solid #00b4ff;*/
 }
 
 .rightcontent {
