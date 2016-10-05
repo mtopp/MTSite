@@ -4,6 +4,11 @@
  * 1. Change the default font family in all browsers (opinionated).
  * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
  */
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
 
 html {
   font-family: sans-serif; /* 1 */

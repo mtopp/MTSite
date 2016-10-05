@@ -4,7 +4,7 @@
 
 body {
     font-family: Verdana;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
 }
 
 #topwrapper {
@@ -15,8 +15,10 @@ body {
 #topbar {
     position: fixed;
     top: 0;
-    border-top: 1px solid #00b4ff;
-    border-bottom: 1px solid #00b4ff;
+    /*border-top: 1px solid #00B4FF;
+    border-bottom: 1px solid #00B4FF;*/
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
     width: inherit;
     background-color: #242424;
 }
@@ -59,15 +61,16 @@ ul.navbar a {
 }
 
 ul.navbar a:hover {
-    background-color: #00b4ff;
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 #logo {
     float: left;
     text-align: center;
     font-size: 36px;
-    text-shadow: -1px -1px #005072;
-    color: #00b4ff;
+    text-shadow: -2px -1px #000000;
+    color: #FF6A00;
     padding: 10px;
     width: auto;
     vertical-align: top;

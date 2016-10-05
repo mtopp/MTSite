@@ -21,13 +21,13 @@
 
 .leftcontent {
     width: 45%;
-    background-color: #ffffff;
-    /*border-right: 1px solid #00b4ff;*/
+    background-color: #333333;
+    border-right: 1px solid #FFFFFF;
 }
 
 .rightcontent {
     width: 55%;
-    background-color:#ff6a00;
+    background-color:#FF6A00;
 }
 
 
