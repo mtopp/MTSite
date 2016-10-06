@@ -17,10 +17,10 @@ body {
     top: 0;
     /*border-top: 1px solid #00B4FF;
     border-bottom: 1px solid #00B4FF;*/
-    border-top: 1px solid #FFFFFF;
-    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
     width: inherit;
-    background-color: #242424;
+    background-color: #202020;
 }
 
 #topbar a {
@@ -61,7 +61,7 @@ ul.navbar a {
 }
 
 ul.navbar a:hover {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: #000000;
 }
 
@@ -70,7 +70,7 @@ ul.navbar a:hover {
     text-align: center;
     font-size: 36px;
     text-shadow: -2px -1px #000000;
-    color: #ff9500;
+    color: #baeaff;
     padding: 10px;
     width: auto;
     vertical-align: top;
