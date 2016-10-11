@@ -7,10 +7,10 @@ body {
     /*background-color: #ffffff;*/
 }
 
-#topwrapper {
-    /*height: 64px;*/
+/*#topwrapper {
+    height: 64px;
     width: 100%;
-}
+}*/
 
 #topbar {
     position: fixed;
@@ -19,7 +19,7 @@ body {
     border-bottom: 1px solid #00B4FF;*/
     border-top: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
-    width: inherit;
+    width: 100%;
     background-color: #202020;
 }
 
@@ -99,8 +99,8 @@ ul.navbar a:hover {
     #topbar {
         position: static;
     }
-    #topwrapper {
-        height: auto;
+    /*#topwrapper {
+        height: auto;*/
     }
     #logowrapper, #navbarwrapper {
         float: none;
