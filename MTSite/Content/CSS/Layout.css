@@ -12,7 +12,7 @@ body {
     width: 100%;
 }*/
 
-#topbar {
+#topbar { 
     position: fixed;
     top: 0;
     /*border-top: 1px solid #00B4FF;
@@ -21,6 +21,10 @@ body {
     border-bottom: 1px solid #ffffff;
     width: 100%;
     background-color: #202020;
+    background: -webkit-linear-gradient(left, rgba(32,32,32,1) 0%, rgba(32,32,32,1) 100%);
+    background: -o-linear-gradient(right, rgba(32,32,32,1) 0%, rgba(32,32,32,1) 100%);
+    background: -moz-linear-gradient(right, rgba(32,32,32,1) 0%, rgba(32,32,32,1) 100%);
+    background: linear-gradient(to right, rgba(32,32,32,1) 0%, rgba(32,32,32,1) 100%);
 }
 
 #topbar a {
