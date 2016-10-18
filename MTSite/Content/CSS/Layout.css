@@ -30,6 +30,7 @@ body {
 
 #topbar a {
     text-decoration: none;
+    z-index: 1;
 }
 
 #logowrapper {
