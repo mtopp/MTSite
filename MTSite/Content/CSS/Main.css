@@ -43,8 +43,15 @@
     position: relative;
     color: #3c3c3c;
     font-size: 2.5em;
-    top: 25%;
+    top: 15%;
     padding: 0 40px;
+}
+
+@media screen and (max-width: 750px) {
+    .content-partition {
+        width: 100%;
+        height: 400px;
+    }
 }
 
 
