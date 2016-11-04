@@ -40,11 +40,15 @@
 }
 
 #profile-wrapper {
-    position: relative;
+    display: table;
+    height: 100%;
     color: #3c3c3c;
     font-size: 2.5em;
-    top: 15%;
-    padding: 0 40px;
+    padding: 25% 15%;
+}
+
+.table-cell {
+    display: table-cell;
 }
 
 @media screen and (max-width: 750px) {
