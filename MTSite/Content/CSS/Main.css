@@ -41,7 +41,7 @@
 
 #profile-wrapper {
     height: 100%;
-    color: #3c3c3c;
+    color: #e2e2e2;
     font-size: 2.5em;
     padding: 25% 15%;
 }
@@ -61,5 +61,8 @@
     }
 }
 
+.clear {
+    clear:both
+}
 
 
