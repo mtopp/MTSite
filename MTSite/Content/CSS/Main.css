@@ -36,14 +36,15 @@
     background: -o-linear-gradient(bottom right, rgba(18,123,175,1) 0%, rgba(0,180,255,1) 100%);
     background: -moz-linear-gradient(bottom right, rgba(18,123,175,1) 0%, rgba(0,180,255,1) 100%);
     background: linear-gradient(to bottom right, rgba(18,123,175,1) 0%, rgba(0,180,255,1) 100%);
-    
+    overflow: hidden;    
 }
 
 #profile-wrapper {
     height: 100%;
     color: #e2e2e2;
-    font-size: 2.5em;
+    font-size: 1.5em;
     padding: 25% 15%;
+    line-height: 1.5em;
 }
 
 .table {
@@ -52,6 +53,7 @@
 
 .table-cell {
     display: table-cell;
+    vertical-align: middle;
 }
 
 @media screen and (max-width: 750px) {
