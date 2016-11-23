@@ -40,11 +40,12 @@
 
 #profile-wrapper {
     height: 100%;
-    color: #05aaf5;
+    color: #202020;
+    /*color: #05aaf5;*/
     /*color: #e2e2e2;*/
     font-size: 1.5em;
-    padding: 25% 15%;
-    line-height: 1.5em;
+    padding: 15% 12%;
+    line-height: 1.8em;
 }
 
 .table {
@@ -56,12 +57,16 @@
     vertical-align: middle;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 936px) {
     .content-partition {
         height: 500px;
         float: none;
         width: 100%;
     }
+    .table, .table-cell {
+        display: block;
+    }
+
 }
 
 .clear {
