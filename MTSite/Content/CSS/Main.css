@@ -18,16 +18,16 @@
     height: 100%;
     float: left;
     width: 50%;
+    overflow: hidden; 
 }
 
 #left-content {
     background: #9b9b9b;
-    background: -webkit-linear-gradient(left top, rgba(255,255,255,1) 0%, rgba(175,175,175,1) 100%);
-    background: -o-linear-gradient(bottom right, rgba(255,255,255,1) 0%, rgba(175,175,175,1) 100%);
-    background: -moz-linear-gradient(bottom right, rgba(255,255,255,1) 0%, rgba(175,175,175,1) 100%);
-    background: linear-gradient(to bottom right, rgba(255,255,255,1) 0%, rgba(175,175,175,1) 100%);
+    background: -webkit-linear-gradient(left top, rgba(255,255,255,1) 0%, rgba(190,190,190,1) 100%);
+    background: -o-linear-gradient(bottom right, rgba(255,255,255,1) 0%, rgba(190,190,190,1) 100%);
+    background: -moz-linear-gradient(bottom right, rgba(255,255,255,1) 0%, rgba(190,190,190,1) 100%);
+    background: linear-gradient(to bottom right, rgba(255,255,255,1) 0%, rgba(190,190,190,1) 100%);
     /*border-right: 1px solid #ffffff;*/
-    overflow: hidden; 
 }
 
 #right-content {
@@ -38,14 +38,43 @@
     background: linear-gradient(to bottom right, rgba(18,123,175,1) 0%, rgba(0,180,255,1) 100%);   
 }
 
+#stats-wrapper{
+    color: #0a92d0;
+}
+
+#stats-wrapper h2{
+    font-size: 24px;
+}
+
+#border-design {
+    border: 1px solid #0a92d0;
+    width: 109px;
+    position: relative;
+    left: 88px;
+}
+
+#border-design:after {
+    content: " ";
+    border: 1px solid #0a92d0;
+    width: 54px;
+    position: absolute;
+    left: 52px;
+    top: 7px;
+}
+
 #profile-wrapper {
-    height: 100%;
-    color: #202020;
+    color: #eefaff;
+    /*color: #202020;*/
     /*color: #05aaf5;*/
     /*color: #e2e2e2;*/
-    font-size: 1.5em;
-    padding: 15% 12%;
+    font-size: 24px;
     line-height: 1.8em;
+}
+
+.table-wrapper {
+    height: 100%;
+    width: 100%;
+    padding: 15% 12%;
 }
 
 .table {
@@ -59,14 +88,32 @@
 
 @media screen and (max-width: 936px) {
     .content-partition {
-        height: 500px;
+        height: auto;
         float: none;
         width: 100%;
+        overflow: visible;
     }
     .table, .table-cell {
-        display: block;
+        /*display: block;*/
+    }
+    #profile-wrapper {
+        padding: 8%;
+    }
+    #left-content {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
     }
 
+    #right-content {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+    }
 }
 
 .clear {
