@@ -47,26 +47,6 @@
     padding-bottom: 4px;
 }
 
-#border-design {
-    border: 1px solid #0a92d0;
-    width: 21%;
-    /*width: 109px;*/
-    position: relative;
-    left: 12%;
-    /*left: 88px;*/
-}
-
-#border-design:after {
-    content: " ";
-    border: 1px solid #0a92d0;
-    width: 51%;
-    /*width: 54px;*/
-    position: absolute;
-    left: 48%;
-    /*left: 52px;*/
-    top: 7px;
-}
-
 #profile-wrapper {
     color: #eefaff;
     /*color: #202020;*/
