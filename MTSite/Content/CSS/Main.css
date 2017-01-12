@@ -43,8 +43,7 @@
 }
 
 #stats-wrapper h2{
-    font-size: 23px;
-    padding-bottom: 4px;
+    font-size: 22px;
 }
 
 #profile-wrapper {
@@ -52,7 +51,7 @@
     /*color: #202020;*/
     /*color: #05aaf5;*/
     /*color: #e2e2e2;*/
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.8em;
 }
 
@@ -69,6 +68,12 @@
 .table-cell {
     display: table-cell;
     vertical-align: middle;
+}
+
+@media screen and (min-width: 1680px) {
+    #stats-wrapper h2, #profile-wrapper {
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width: 936px) {

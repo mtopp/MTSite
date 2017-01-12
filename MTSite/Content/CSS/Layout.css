@@ -88,6 +88,15 @@ ul.navbar a:hover {
     height: 100%;
 }
 
+@media screen and (min-width: 1680px) {
+    ul.navbar {
+        font-size: 17px;
+    }
+    #logo {
+        font-size: 32px;
+    }
+}
+
 @media screen and (max-width: 936px) {
     ul.navbar {
         float: none;
