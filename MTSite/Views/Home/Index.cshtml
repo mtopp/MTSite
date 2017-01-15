@@ -1,37 +1,62 @@
-﻿@{
-    ViewBag.Title = "Home";
-}
+﻿<!DOCTYPE html>
 
-<div id="left-content" class="content-partition">
-    <div id="stats-wrapper" class="table table-wrapper">
-        <div class="table-cell">
-            <div id="stats-header">
-                <h2>Lorem Ipsum 1920, 1680, 1366</h2>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/CSS/Main.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/CSS/Normalise.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div id="topbar">
+        <div id="logowrapper">
+            <a href="">
+                <div id="logo">
+                    NAME LOGO
+                </div>
+            </a>
+        </div>
+        <div id="navbarwrapper">
+            <ul class="navbar">
+                <li><a class="active" href="">Opt 1</a></li>
+                <li><a href="">Opt 2</a></li>
+                <li><a href="">Opt 3</a></li>
+                <li><a href="">Opt 4</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="contentwrapper">
+        <div id="left-content" class="content-partition">
+            <div id="stats-wrapper" class="table table-wrapper">
+                <div class="table-cell">
+                    <div id="stats-header">
+                        <h2>Lorem Ipsum 1920, 1680, 1366</h2>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
-
-<div id="right-content" class="content-partition">
-    <div id="profile-wrapper" class="table table-wrapper">
-        <div class="table-cell">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ante orci, condimentum nec dui non. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In felis quam, auctor ac accumsan vel, porta quis justo. Nullam vel.</p>
+        <div id="right-content" class="content-partition">
+            <div id="profile-wrapper" class="table table-wrapper">
+                <div class="table-cell">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ante orci, condimentum nec dui non. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In felis quam, auctor ac accumsan vel, porta quis justo. Nullam vel.</p>
+                </div>
+            </div>
         </div>
+
+        @*<div>
+                http://stackoverflow.com/questions/19768767/multiple-media-queries-for-different-screen-sizes
+            http://stackoverflow.com/questions/11384720/what-are-good-resolution-values-to-use-with-media-queries
+                asdfasdfasdfasdfasdfasdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf
+            </div>*@
+
+
+
+        @*<div id="banner">
+                <p>Banner Text</p>
+            </div>*@
     </div>
-</div>
-
-
-@*<div>
-        http://stackoverflow.com/questions/19768767/multiple-media-queries-for-different-screen-sizes
-    http://stackoverflow.com/questions/11384720/what-are-good-resolution-values-to-use-with-media-queries
-        asdfasdfasdfasdfasdfasdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf
-    </div>*@
-
-
-
-
-
-
-@*<div id="banner">
-    <p>Banner Text</p>
-</div>*@
+</body>
+</html>
