@@ -11,10 +11,14 @@ body {
     background: linear-gradient(to bottom right, rgba(255,255,255,1) 0%, rgba(190,190,190,1) 100%);
 }
 
+section {
+    /*height: 100vh;*/
+}
+
 #topbar { 
-    position: static;
-    top: 0;
-    width: 100%;
+    /*position: static;
+    top: 0;*/
+    width: 100vw;
     background-color: #3c3c3c;
 }
 
@@ -64,8 +68,9 @@ ul.navbar a {
     padding: 0.9375rem;
 }
 
-#contentwrapper {
-    height: auto;
+#partition-wrapper {
+    height: 93.5vh;
+    width: 100vw;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -83,8 +88,8 @@ ul.navbar a {
     align-items: flex-start;
 }
 
-.content-partition {
-    height: auto;
+.partition {
+    /*height: auto;*/
     float: none;
     width: 100%;
     overflow: visible; 
@@ -133,7 +138,7 @@ ul.navbar a {
 .table-wrapper {
     height: 100%;
     width: 100%;
-    padding: 8%;
+    padding: 8vh;
 }
 
 .table {
@@ -150,37 +155,50 @@ ul.navbar a {
 Media Queries*/
 
 @media (min-width: 58.56rem) {
-    .content-partition {
-        height: 100%;
+
+    .section {
+        height: 100vh;
+    }
+
+    .partition {
+        height: 93.5vh;
         float: left;
-        width: 50%;
+        width: 50vw;
         overflow: hidden;
     }
     .table-wrapper {
-        padding: 15% 12%;
+        /*padding: 15% 12%;*/
     }
-    #contentwrapper {
-        height: 100%;
+    #partition-wrapper {
+        height: 93.5vh;
         display: block;
     }
     ul.navbar {
         float: right;
-        margin: 0 1.875rem 0 0;
+        font-size: 2vh;
+        /*margin: 0 1.875rem 0 0;*/
     }
     ul.navbar a {
-        padding: 1.188rem;
+        padding: 2.05vh;
+        /*padding: 1.188rem;*/
     }
     #logo {
         width: auto;
-        margin-left: 0.9375rem;
-        padding: 0.625rem;
+        margin-left: 2.5vh;
+        /*margin-left: 0.9375rem;*/
+        padding: 1.1vh;
+        /*padding: 0.625rem;*/
+        font-size: 3.5vh;
     }
     #topbar {
-        position: fixed;
+        height: 6.5vh;
+        /*position: fixed;*/
     }
     #logowrapper, #navbarwrapper {
+        height: 6.5vh;
         float: left;
-        width: 50%;
+        width: 50vw;
+        /*width: 50%;*/
     }
 	ul.navbar a:hover {
         background-color: #ffffff;
@@ -190,10 +208,10 @@ Media Queries*/
 
 @media screen and (min-width: 1619px) {
     ul.navbar {
-        font-size: 1.063rem;
+        /*font-size: 1.063rem;*/
     }
     #logo {
-        font-size: 2rem;
+        /*font-size: 2rem;*/
     }
 }
 

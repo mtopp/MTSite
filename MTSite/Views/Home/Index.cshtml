@@ -11,52 +11,54 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div id="topbar">
-        <div id="logowrapper">
-            <a href="">
-                <div id="logo">
-                    NAME LOGO
-                </div>
-            </a>
+    <div class="section">
+        <div id="topbar">
+            <div id="logowrapper">
+                <a href="">
+                    <div id="logo">
+                        NAME LOGO
+                    </div>
+                </a>
+            </div>
+            <div id="navbarwrapper">
+                <ul class="navbar">
+                    <li><a class="active" href="">Opt 1</a></li>
+                    <li><a href="">Opt 2</a></li>
+                    <li><a href="">Opt 3</a></li>
+                    <li><a href="">Opt 4</a></li>
+                </ul>
+            </div>
         </div>
-        <div id="navbarwrapper">
-            <ul class="navbar">
-                <li><a class="active" href="">Opt 1</a></li>
-                <li><a href="">Opt 2</a></li>
-                <li><a href="">Opt 3</a></li>
-                <li><a href="">Opt 4</a></li>
-            </ul>
-        </div>
-    </div>
-    <div id="contentwrapper">
-        <div id="left-content" class="content-partition">
-            <div id="stats-wrapper" class="table table-wrapper">
-                <div class="table-cell">
-                    <div id="stats-header">
-                        <h2>Lorem Ipsum 1920, 1680, 1366. Look into using Vh measurement - need to make topbar not fixed.</h2>
+        <div id="partition-wrapper">
+            <div id="left-content" class="partition">
+                <div id="stats-wrapper" class="table table-wrapper">
+                    <div class="table-cell">
+                        <div id="stats-header">
+                            <h2>Lorem Ipsum 1920, 1680, 1366. Code in measurement fallbacks, also consider min-height/widths for logo & navbar options. Then need to vh/vw mobile view.</h2>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="right-content" class="content-partition">
-            <div id="profile-wrapper" class="table table-wrapper">
-                <div class="table-cell">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ante orci, condimentum nec dui non. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In felis quam, auctor ac accumsan vel, porta quis justo. Nullam vel.</p>
+            <div id="right-content" class="partition">
+                <div id="profile-wrapper" class="table table-wrapper">
+                    <div class="table-cell">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ante orci, condimentum nec dui non. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In felis quam, auctor ac accumsan vel, porta quis justo. Nullam vel.</p>
+                    </div>
                 </div>
             </div>
+
+            @*<div>
+                    http://stackoverflow.com/questions/19768767/multiple-media-queries-for-different-screen-sizes
+                http://stackoverflow.com/questions/11384720/what-are-good-resolution-values-to-use-with-media-queries
+                    asdfasdfasdfasdfasdfasdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf
+                </div>*@
+
+
+
+            @*<div id="banner">
+                    <p>Banner Text</p>
+                </div>*@
         </div>
-
-        @*<div>
-                http://stackoverflow.com/questions/19768767/multiple-media-queries-for-different-screen-sizes
-            http://stackoverflow.com/questions/11384720/what-are-good-resolution-values-to-use-with-media-queries
-                asdfasdfasdfasdfasdfasdfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf
-            </div>*@
-
-
-
-        @*<div id="banner">
-                <p>Banner Text</p>
-            </div>*@
     </div>
 </body>
 </html>
