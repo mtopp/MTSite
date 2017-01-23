@@ -27,7 +27,7 @@ section {
     z-index: 1;
 }
 
-#logowrapper, #navbarwrapper {
+#logo-wrapper, #navbar-wrapper {
     width: auto;
     height: auto;
     float: none;
@@ -154,6 +154,9 @@ ul.navbar a {
 
 Media Queries*/
 
+
+
+
 @media (min-width: 58.56rem) {
 
     .section {
@@ -194,7 +197,7 @@ Media Queries*/
         height: 6.5vh;
         /*position: fixed;*/
     }
-    #logowrapper, #navbarwrapper {
+    #logo-wrapper, #navbar-wrapper {
         height: 6.5vh;
         float: left;
         width: 50vw;
@@ -215,6 +218,23 @@ Media Queries*/
     }
 }
 
+@media (min-width: 58.56rem) and (max-height: 617px) {
+
+    #topbar, #logo-wrapper, #navbar-wrapper {
+        height: 40px;
+    }
+    #logo {
+        padding: 8px;
+        font-size: 19.5px;
+        margin-left: 15px;
+    }
+    ul.navbar {
+        font-size: 14px;
+    }
+    ul.navbar a {
+        padding: 11.5px;
+    }
+}
 
 
 
